@@ -19,7 +19,7 @@ There are two tools at present, TimeMachine and GrepOps.
 TimeMachine allows you to dump the contents of a zookeeper server at any point in time in the past.
 
 ```
-$ java -cp build/libs/zktimemachine.jar TimeMachine -z /var/lib/zookeeper/version-2/ -t 2015-03-31T00:58:56.176+02:00
+$ java -cp build/libs/zktimemachine.jar TimeMachine -z /var/lib/zookeeper/version-2/ -s 2015-03-31T00:58:56.176+02:00
 Replaying up until time 2015-03-31T00:58:56.176+02:00
 Applied 52112 transactions from zxid 8609234051 (Tue Mar 31 00:53:32 CEST 2015) to 8609286162 (Tue Mar 31 00:58:56 CEST 2015)
 - / data:0 children:2 createdBy:0 createdAt:Thu Jan 01 01:00:00 CET 1970 age:1427756336176  
